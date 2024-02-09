@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //this defines what 1rem is
+    //62.5% = 10 pixels because 62.5 / 100 = .625 * 16 = 10 
+    //16 is the default pixel size of the browser
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
