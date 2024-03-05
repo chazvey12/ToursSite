@@ -10,6 +10,7 @@ html {
     //this defines what 1rem is
     //62.5% = 10 pixels because 62.5 / 100 = .625 * 16 = 10 
     //16 is the default pixel size of the browser
+    //To convert from pixels to % ==> if the desired default font-size is 12 pixels = 12px / 16px * 100 = 75%
     font-size: 62.5%;
 }
 
