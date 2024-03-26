@@ -38,7 +38,7 @@ body {
 }
 
 .heading-secondary {
-  display: inline-block;
+  // display: inline-block;
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -70,4 +70,22 @@ body {
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
+}
+
+#top {
+  display: block;
+  position: relative;
+  height: 100px;
+  background-color: rgba(89, 144, 222, 0.6);
+  text-align: center;
+}
+#top h2 {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 100px;
+  // text-shadow: 2px 2px black;
+  // text-align: center;
+  // color: white;
+  // font-family: "Impact";
+  // font-size: 50px;
 }
